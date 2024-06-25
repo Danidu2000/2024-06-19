@@ -1,15 +1,3 @@
-//let name = "Saman";
-
-//const age = 12;
-
-//console.log(typeof age);
-
-/*let x = 10;
-let y = 20;
-
-let z = x + y;
-console.log(z);*/
-
 function calc() {
     let x = document.getElementById("Label").innerHTML;
     let y = eval(x);

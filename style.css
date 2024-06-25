@@ -13,29 +13,38 @@ li{
 }
 
 button{
-    width: 100px;
+    width: 50px;
     height: 50px;
-    font-size: large;
-    font-weight: 500;
-    border-radius: 10px;
-    border: none;
-    margin: 5px;
-    text-align: center;
-    justify-content: center;
-
 }
 label{
-    width: 415px;
+    width: 214px;
     height: 50px;
     font-size: x-large;
     font-weight: 500;
-    margin: 10px;
+    margin-bottom: 20px;
     padding: 10px;  
     border-radius: 10px;
     border: rgb(0, 0, 0) solid 2px;
     margin: 5px;
+    margin-bottom: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(253, 247, 182);
+}
+
+.cal_background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 285px;
+    border: rgb(79, 43, 0) solid 3px; 
+    background-image: url(img/Background\ image.jpg); 
+    background-size: 250%;
+    background-repeat: no-repeat;
+    padding-top: 20px; 
+    padding-bottom: 20px;    
 }
